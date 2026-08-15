@@ -1,10 +1,20 @@
-# HD 97658 b — Real TESS Transit Report
+# HD 97658 b: A Nearby Warm Super-Earth in Transit
 
+<!-- TARGET-IDENTITY-START -->
+<p align="center">
+  <img src="assets/artist_concept.webp" alt="Artist's interpretation of HD 97658 b near its host star" width="900">
+</p>
+
+<p align="center"><em>AI-generated artist's interpretation informed by the measured system properties; not a direct image.</em></p>
+
+**Nearby super-Earth · bright host · TESS photometry**
+
+A nearby dense planet around a bright K dwarf, presented as a compact, reproducible transit measurement with conservative treatment of correlated noise.
+<!-- TARGET-IDENTITY-END -->
 <p align="center">
   <img src="figures/hd97658b_tess_transit.png" alt="Phase-folded real TESS transit light curve of HD 97658 b" width="760">
 </p>
 
-One real public TESS SPOC light curve; one historical NASA Exoplanet Archive ephemeris; one timing-adjusted, limb-darkened transit fit.
 
 **[Open the full report](https://biswajit1999.github.io/hd97658b-exoplanet-report/)** — the live GitHub Pages version.
 
