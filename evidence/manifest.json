@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "project": "HD 97658 b: A Nearby Warm Super-Earth in Transit",
+  "repository": "https://github.com/Biswajit1999/hd97658b-exoplanet-report",
+  "files": [
+    {
+      "label": "Data source notes",
+      "path": "data/SOURCE.md",
+      "role": "Data and provenance",
+      "bytes": 2165,
+      "sha256": "ce8f962223c8116fbcc3eb12f9542d053b8acab2e152c16480cac6c36a3a4a46",
+      "hash_basis": "LF-normalised text",
+      "format": "MD"
+    },
+    {
+      "label": "System parameters",
+      "path": "data/system_parameters.csv",
+      "role": "Data and provenance",
+      "bytes": 510,
+      "sha256": "de401973e8132de0d303d2ad5c1134476afa71c800cce62c8d79e8bb3ff829fb",
+      "hash_basis": "LF-normalised text",
+      "format": "CSV",
+      "rows": 1,
+      "columns": 21,
+      "headers": [
+        "pl_name",
+        "hostname",
+        "ra",
+        "dec",
+        "pl_orbper",
+        "pl_tranmid",
+        "pl_trandur"
+      ],
+      "preview": [
+        [
+          "HD 97658 b",
+          "HD 97658",
+          "168.6376584",
+          "25.7105962",
+          "9.4897116",
+          "2458904.9366",
+          "2.8488"
+        ]
+      ]
+    },
+    {
+      "label": "Tess2020049080258 s0022 0000000082308728 0174 s lc",
+      "path": "data/tess2020049080258-s0022-0000000082308728-0174-s_lc.fits",
+      "role": "Data and provenance",
+      "bytes": 1987200,
+      "sha256": "8f937adb8cbed6323e280a0d3d7130438855c0385b376d866c517b6bca184e5e",
+      "hash_basis": "exact bytes",
+      "format": "FITS"
+    },
+    {
+      "label": "Summary statistics",
+      "path": "figures/summary_statistics.csv",
+      "role": "Tables and numerical results",
+      "bytes": 1151,
+      "sha256": "06415d5c564bc1427c9e2d89ef1488ceb6da42495706c516358c492b98bd0439",
+      "hash_basis": "LF-normalised text",
+      "format": "CSV",
+      "rows": 36,
+      "columns": 3,
+      "headers": [
+        "quantity",
+        "value",
+        "unit"
+      ],
+      "preview": [
+        [
+          "sector",
+          "22",
+          "TESS sector"
+        ],
+        [
+          "period_days",
+          "9.4897116",
+          "days; NASA Exoplanet Archive"
+        ],
+        [
+          "published_duration_hours",
+          "2.8488",
+          "hours; NASA Exoplanet Archive"
+        ],
+        [
+          "a_over_rstar",
+          "23.7775769231",
+          "fixed from saved a and stellar radius"
+        ]
+      ]
+    },
+    {
+      "label": "Multisector statistics",
+      "path": "figures/multisector_statistics.csv",
+      "role": "Tables and numerical results",
+      "bytes": 349,
+      "sha256": "4e1263195d493de7afc0d18a8ee4586bc218f1cd5c4b7bc33777dc04e4e5c887",
+      "hash_basis": "LF-normalised text",
+      "format": "CSV",
+      "rows": 1,
+      "columns": 13,
+      "headers": [
+        "sector",
+        "filename",
+        "transit_events",
+        "n_points",
+        "transit_supported",
+        "delta_bic",
+        "timing_shift_hours"
+      ],
+      "preview": [
+        [
+          "22",
+          "tess2020049080258-s0022-0000000082308728-0174-s_lc.fits",
+          "2",
+          "1011",
+          "True",
+          "1842.353273",
+          "0.08351367157"
+        ]
+      ]
+    },
+    {
+      "label": "Hd97658b depth consistency",
+      "path": "figures/hd97658b_depth_consistency.png",
+      "role": "Figures",
+      "bytes": 60275,
+      "sha256": "57a22e9ea6472b9419baead0cacee04cd8fd794924d50f25b4b907074400fbeb",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    },
+    {
+      "label": "Hd97658b multisector transits",
+      "path": "figures/hd97658b_multisector_transits.png",
+      "role": "Figures",
+      "bytes": 69793,
+      "sha256": "2141e53562f2ca1d34fc3f4091366ffa35172c0b0f65d83840882d4ae3b947cd",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    },
+    {
+      "label": "Hd97658b noise diagnostics",
+      "path": "figures/hd97658b_noise_diagnostics.png",
+      "role": "Figures",
+      "bytes": 85744,
+      "sha256": "a6395164666141c0cefef8a822dca0603fed4e3ea234a623221a912f30b47c9e",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    },
+    {
+      "label": "Hd97658b tess transit",
+      "path": "figures/hd97658b_tess_transit.png",
+      "role": "Figures",
+      "bytes": 167083,
+      "sha256": "6e0d5444bca2d1e53f7edce40a90ec7b949990368dd54d579ea470bcdadf13ee",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    }
+  ]
+}

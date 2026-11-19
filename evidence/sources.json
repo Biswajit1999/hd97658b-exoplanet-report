@@ -1,0 +1,51 @@
+{
+  "project": "HD 97658 b: A Nearby Warm Super-Earth in Transit",
+  "repository": "https://github.com/Biswajit1999/hd97658b-exoplanet-report",
+  "files": [
+    {
+      "label": "Data source notes",
+      "path": "data/SOURCE.md",
+      "role": "Data and provenance"
+    },
+    {
+      "label": "System parameters",
+      "path": "data/system_parameters.csv",
+      "role": "Data and provenance"
+    },
+    {
+      "label": "Tess2020049080258 s0022 0000000082308728 0174 s lc",
+      "path": "data/tess2020049080258-s0022-0000000082308728-0174-s_lc.fits",
+      "role": "Data and provenance"
+    },
+    {
+      "label": "Summary statistics",
+      "path": "figures/summary_statistics.csv",
+      "role": "Tables and numerical results"
+    },
+    {
+      "label": "Multisector statistics",
+      "path": "figures/multisector_statistics.csv",
+      "role": "Tables and numerical results"
+    },
+    {
+      "label": "Hd97658b depth consistency",
+      "path": "figures/hd97658b_depth_consistency.png",
+      "role": "Figures"
+    },
+    {
+      "label": "Hd97658b multisector transits",
+      "path": "figures/hd97658b_multisector_transits.png",
+      "role": "Figures"
+    },
+    {
+      "label": "Hd97658b noise diagnostics",
+      "path": "figures/hd97658b_noise_diagnostics.png",
+      "role": "Figures"
+    },
+    {
+      "label": "Hd97658b tess transit",
+      "path": "figures/hd97658b_tess_transit.png",
+      "role": "Figures"
+    }
+  ]
+}
